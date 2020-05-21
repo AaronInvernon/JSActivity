@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="style/style.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <form id="Calculator">
+        <input id="screen"  placeholder="0"/>
+
+        <div id="btns">
+            <input type="button" class="btn" value="1" onclick="insert(1)"/>
+            <input type="button" class="btn" value="2" onclick="insert(2)"/>
+            <input type="button" class="btn" value="3" onclick="insert(3)"/>
+            <input type="button" class="btn" value="+" onclick="insert('+')"/>
+
+            <input type="button" class="btn" value="4" onclick="insert(4)"/>
+            <input type="button" class="btn" value="5" onclick="insert(5)"/>
+            <input type="button" class="btn" value="6" onclick="insert(6)"/>
+            <input type="button" class="btn" value="-" onclick="insert('-')"/>
+
+            <input type="button" class="btn" value="7" onclick="insert(7)"/>
+            <input type="button" class="btn" value="8" onclick="insert(8)"/>
+            <input type="button" class="btn" value="9" onclick="insert(9)"/>
+            <input type="button" class="btn" value="X" onclick="insert('*')"/>
+
+            <input type="button" class="btn" value="C" onclick="c()"/>
+            <input type="button" class="btn" value="0" onclick="insert(0)"/>
+            <input type="button" class="btn" value="=" onclick="equal()"/>
+            <input type="button" class="btn" value="/" onclick="insert('/')"/>
+
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
